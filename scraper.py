@@ -1,13 +1,13 @@
 # This is a template for a Python scraper on morph.io (https://morph.io)
 # including some code snippets below that you should find helpful
 
-# import scraperwiki
-# import lxml.html
-#
-# # Read in a page
-# html = scraperwiki.scrape("http://foo.com")
-#
-# # Find something on the page using css selectors
+import scraperwiki
+import lxml.html
+
+# Read in a page
+html = scraperwiki.scrape("https://www.ahpra.gov.au/Registration/Registers-of-Practitioners.aspx")
+
+# Find something on the page using css selectors
 # root = lxml.html.fromstring(html)
 # root.cssselect("div[align='left']")
 #
